@@ -1,0 +1,16 @@
+package com.company;
+
+import static java.lang.Integer.parseInt;
+
+public class Main {
+
+    public static void main(String[] args) {
+	String nombre;
+	nombre = "Mi nombre es Encina, Victor Joel";
+	System.out.println(nombre);
+	int edad = parseInt("34");
+	System.out.println("tengo "+ edad +" años");
+	float salario = Float.parseFloat("95000");
+	System.out.println("El salario que me gustaria tener es: "+ salario + " pesos");
+    boolean carnet = true;
+    System.out.println("Poseo carnet : " +carnet);
